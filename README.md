@@ -4,7 +4,7 @@
 
 Is a simple Onboarding Android application using the React-Native language.
 
-| ![](./assets/onboarding-1.png) | ![](./assets/onboarding-2.png) | ![](./assets/onboarding-3.png) |
+| ![](./assets/onboarding1.png) | ![](./assets/onboarding2.png) | ![](./assets/onboarding3.png) |
 | --------------------- | --------------------- | ------------------ |
 
 ## Getting Started
