@@ -1,8 +1,8 @@
-# simple-get-list-react-native
+# onboarding-react-native
 
 ## About The Project
 
-Is a simple Android application using the React-Native language. In this application you can display get list item and get detail item which is taken from opensource api https://jsonplaceholder.typicode.com/ 
+Is a simple Onboarding Android application using the React-Native language.
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Is a simple Android application using the React-Native language. In this applica
 
 2. Clone git repository
    ```sh
-    git clone https://github.com/akhidnukhlis/simple-get-list-react-native.git
+    git clone https://github.com/akhidnukhlis/onboarding-react-native.git
    ```
 
 3. Run command using npx
