@@ -1,11 +1,10 @@
 import React from "react";
 import { View, Text, Button, Image, TouchableOpacity, StyleSheet } from "react-native";
 import Onboarding from 'react-native-onboarding-swiper';
-import OnboardFlow from 'react-native-onboard';
 
 const Skip = ({...props}) => (
     <TouchableOpacity 
-        style={{ marginHorizontal:10 }}
+        style={{ marginHorizontal:10, marginLeft: 20 }}
         {...props}
     >
         <Text style={{ fontSize:16 }}>Skip</Text>
@@ -14,7 +13,7 @@ const Skip = ({...props}) => (
 
 const Next = ({...props}) => (
     <TouchableOpacity 
-        style={{ marginHorizontal:10 }}
+        style={{ marginHorizontal:10, marginRight: 20 }}
         {...props}
     >
         <Text style={{ fontSize:16 }}>Next</Text>
