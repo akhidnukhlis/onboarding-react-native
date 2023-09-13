@@ -4,19 +4,21 @@ import Onboarding from 'react-native-onboarding-swiper';
 import OnboardFlow from 'react-native-onboard';
 
 const Skip = ({...props}) => (
-    <Button 
-        title="Skip"
-        color="#000000"
+    <TouchableOpacity 
+        style={{ marginHorizontal:10 }}
         {...props}
-    />
+    >
+        <Text style={{ fontSize:16 }}>Skip</Text>
+    </TouchableOpacity>
 );
 
 const Next = ({...props}) => (
-    <Button 
-        title="Next"
-        color="#000000"
+    <TouchableOpacity 
+        style={{ marginHorizontal:10 }}
         {...props}
-    />
+    >
+        <Text style={{ fontSize:16 }}>Next</Text>
+    </TouchableOpacity>
 );
 
 const Done = ({...props}) => (
