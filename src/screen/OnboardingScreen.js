@@ -22,7 +22,7 @@ const Next = ({...props}) => (
 
 const Done = ({...props}) => (
     <TouchableOpacity 
-        style={{ marginHorizontal:10 }}
+        style={{ marginHorizontal:10, marginRight: 20 }}
         {...props}
     >
         <Text style={{ fontSize:16 }}>Done</Text>
